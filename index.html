@@ -6,17 +6,17 @@
     <title>BBQ Expert | Support</title>
     <meta
       name="description"
-      content="Centre de support officiel de BBQ Expert, l'application mobile de cuisson BBQ guidee avec mesure d'epaisseur, timer intelligent et fonctions premium."
+      content="Centre de support officiel de BBQ Expert, l'application mobile de cuisson BBQ guidée avec mesure d'épaisseur, timer intelligent et fonctions premium."
     />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@400;500;700;800&family=Space+Grotesk:wght@400;500;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@400;500;700;800&family=Noto+Sans:wght@400;500;700&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="assets/styles.css" />
   </head>
-  <body>
+  <body data-page="support">
     <div class="site-shell">
       <header class="hero">
         <nav class="topbar">
@@ -25,49 +25,68 @@
             <span>BBQ Expert</span>
           </a>
           <div class="nav-links">
-            <a href="#faq">FAQ</a>
-            <a href="#contact">Contact</a>
-            <a href="privacy.html">Confidentialite</a>
+            <a href="#faq" data-i18n="navFaq">FAQ</a>
+            <a href="#contact" data-i18n="navContact">Contact</a>
+            <a href="privacy.html" data-i18n="navPrivacy">Confidentialité</a>
           </div>
+          <label class="language-switcher">
+            <span data-i18n="languageLabel">Langue</span>
+            <select id="language-select" aria-label="Language selector">
+              <option value="fr">Français</option>
+              <option value="en">English</option>
+              <option value="it">Italiano</option>
+              <option value="es">Español</option>
+              <option value="de">Deutsch</option>
+              <option value="zh">中文</option>
+            </select>
+          </label>
         </nav>
 
         <div class="hero-grid">
           <section class="hero-copy">
-            <p class="eyebrow">Support officiel</p>
-            <h1>Besoin d'aide avec BBQ Expert ?</h1>
-            <p class="lead">
-              BBQ Expert est une application mobile de cuisson BBQ guidee avec
-              timer intelligent, regle de mesure a l'ecran, AI Pit Coach et
+            <p class="eyebrow" data-i18n="heroEyebrow">Support officiel</p>
+            <h1 data-i18n="heroTitle">Besoin d'aide avec BBQ Expert ?</h1>
+            <p class="lead" data-i18n="heroLead">
+              BBQ Expert est une application mobile de cuisson BBQ guidée avec
+              timer intelligent, règle de mesure à l'écran, AI Pit Coach et
               options Premium. Cette page centralise l'assistance, les questions
-              frequentes et les informations sur la confidentialite.
+              fréquentes et les informations sur la confidentialité.
             </p>
             <div class="hero-actions">
-              <a class="button button-primary" href="mailto:support@bbqexpert.app"
+              <a
+                class="button button-primary"
+                href="mailto:jsteunou+bbqexpertsupport@gmail.com"
+                data-i18n="heroSupportCta"
                 >Contacter le support</a
               >
-              <a class="button button-secondary" href="privacy.html"
-                >Lire la politique de confidentialite</a
+              <a
+                class="button button-secondary"
+                href="privacy.html"
+                data-i18n="heroPrivacyCta"
+                >Lire la politique de confidentialité</a
               >
             </div>
             <p class="meta-note">
-              Adresse de contact a personnaliser si besoin:
-              <strong>support@bbqexpert.app</strong>
+              <span data-i18n="supportEmailLabel">Adresse de support :</span>
+              <strong>jsteunou+bbqexpertsupport@gmail.com</strong>
             </p>
           </section>
 
           <aside class="hero-card">
-            <div class="card-badge">Application mobile</div>
-            <h2>Support pour cuisson guidee, Premium et historique local</h2>
-            <p>
-              Pour accelerer le traitement, indiquez votre appareil, la version
-              de l'application, votre langue, et les etapes qui ont conduit au
-              probleme.
+            <div class="card-badge" data-i18n="heroCardBadge">Application mobile</div>
+            <h2 data-i18n="heroCardTitle">
+              Support pour cuisson guidée, Premium et historique local
+            </h2>
+            <p data-i18n="heroCardBody">
+              Pour accélérer le traitement, indiquez votre appareil, la version
+              de l'application, votre langue, et les étapes qui ont conduit au
+              problème.
             </p>
             <ul class="check-list">
-              <li>Timer et plan de cuisson</li>
-              <li>Règle de mesure et etalonnage</li>
-              <li>Premium et restauration d'achats</li>
-              <li>Confidentialite et donnees locales</li>
+              <li data-i18n="heroList1">Timer et plan de cuisson</li>
+              <li data-i18n="heroList2">Règle de mesure et étalonnage</li>
+              <li data-i18n="heroList3">Premium et restauration d'achats</li>
+              <li data-i18n="heroList4">Confidentialité et données locales</li>
             </ul>
           </aside>
         </div>
@@ -76,30 +95,30 @@
       <main>
         <section class="section">
           <div class="section-heading">
-            <p class="eyebrow">Aide rapide</p>
-            <h2>Les sujets les plus frequents</h2>
+            <p class="eyebrow" data-i18n="quickEyebrow">Aide rapide</p>
+            <h2 data-i18n="quickTitle">Les sujets les plus fréquents</h2>
           </div>
 
           <div class="support-grid">
             <article class="info-card">
-              <h3>Cuisson et timer</h3>
-              <p>
-                Aide sur le calcul de cuisson, les etapes face 1 / face 2 /
-                finition / repos, ou le comportement du timer optimise.
+              <h3 data-i18n="quickCard1Title">Cuisson et timer</h3>
+              <p data-i18n="quickCard1Body">
+                Aide sur le calcul de cuisson, les étapes face 1 / face 2 /
+                finition / repos, ou le comportement du timer optimisé.
               </p>
             </article>
             <article class="info-card">
-              <h3>Mesure et etalonnage</h3>
-              <p>
-                Probleme de regle a l'ecran, calibration avec carte bancaire ou
-                mesure d'epaisseur selon votre appareil.
+              <h3 data-i18n="quickCard2Title">Mesure et étalonnage</h3>
+              <p data-i18n="quickCard2Body">
+                Problème de règle à l'écran, calibration avec carte bancaire ou
+                mesure d'épaisseur selon votre appareil.
               </p>
             </article>
             <article class="info-card">
-              <h3>Premium et historique</h3>
-              <p>
+              <h3 data-i18n="quickCard3Title">Premium et historique</h3>
+              <p data-i18n="quickCard3Body">
                 Questions sur AI Pit Coach, mode service, historique des
-                cuissons et achats integres.
+                cuissons et achats intégrés.
               </p>
             </article>
           </div>
@@ -107,37 +126,37 @@
 
         <section class="section section-accent">
           <div class="section-heading">
-            <p class="eyebrow">Produit</p>
-            <h2>Ce que fait BBQ Expert</h2>
+            <p class="eyebrow" data-i18n="productEyebrow">Produit</p>
+            <h2 data-i18n="productTitle">Ce que fait BBQ Expert</h2>
           </div>
 
           <div class="faq-list">
             <article class="faq-item">
-              <h3>Cuisson multi-viandes</h3>
-              <p>
-                BBQ Expert aide a cuire boeuf, veau, agneau, porc et poulet selon
-                la piece, l'epaisseur, la chaleur et le mode de cuisson.
+              <h3 data-i18n="productCard1Title">Cuisson multi-viandes</h3>
+              <p data-i18n="productCard1Body">
+                BBQ Expert aide à cuire bœuf, veau, agneau, porc et poulet selon
+                la pièce, l'épaisseur, la chaleur et le mode de cuisson.
               </p>
             </article>
             <article class="faq-item">
-              <h3>Mesure a l'ecran</h3>
-              <p>
-                L'application propose une regle calibrable a l'aide d'une carte
-                bancaire pour mieux estimer l'epaisseur de la viande.
+              <h3 data-i18n="productCard2Title">Mesure à l'écran</h3>
+              <p data-i18n="productCard2Body">
+                L'application propose une règle calibrable à l'aide d'une carte
+                bancaire pour mieux estimer l'épaisseur de la viande.
               </p>
             </article>
             <article class="faq-item">
-              <h3>Guidage pas a pas</h3>
-              <p>
+              <h3 data-i18n="productCard3Title">Guidage pas à pas</h3>
+              <p data-i18n="productCard3Body">
                 Le timer indique quand retourner, finir et laisser reposer la
-                viande pour une execution plus reguliere.
+                viande pour une exécution plus régulière.
               </p>
             </article>
             <article class="faq-item">
-              <h3>Fonctions Premium</h3>
-              <p>
+              <h3 data-i18n="productCard4Title">Fonctions Premium</h3>
+              <p data-i18n="productCard4Body">
                 Le plan Pitmaster ajoute AI Pit Coach, l'historique complet des
-                cuissons et le mode service de 3 a 10 pieces.
+                cuissons et le mode service de 3 à 10 pièces.
               </p>
             </article>
           </div>
@@ -145,40 +164,44 @@
 
         <section class="section section-accent" id="faq">
           <div class="section-heading">
-            <p class="eyebrow">FAQ</p>
-            <h2>Questions frequentes</h2>
+            <p class="eyebrow" data-i18n="faqEyebrow">FAQ</p>
+            <h2 data-i18n="faqTitle">Questions fréquentes</h2>
           </div>
 
           <div class="faq-list">
             <article class="faq-item">
-              <h3>Faut-il creer un compte pour utiliser l'application ?</h3>
-              <p>
-                Non. D'apres la version actuelle du projet, BBQ Expert ne
-                necessite pas de creation de compte pour fonctionner.
+              <h3 data-i18n="faq1Title">Faut-il créer un compte pour utiliser l'application ?</h3>
+              <p data-i18n="faq1Body">
+                Non. D'après la version actuelle du projet, BBQ Expert ne
+                nécessite pas de création de compte pour fonctionner.
               </p>
             </article>
             <article class="faq-item">
-              <h3>Ou sont stockees mes preferences et mon historique ?</h3>
-              <p>
-                Les preferences, l'etalonnage et l'historique local des
-                cuissons sont stockes sur votre appareil.
+              <h3 data-i18n="faq2Title">Où sont stockées mes préférences et mon historique ?</h3>
+              <p data-i18n="faq2Body">
+                Les préférences, l'étalonnage et l'historique local des
+                cuissons sont stockés sur votre appareil.
               </p>
             </article>
             <article class="faq-item">
-              <h3>Que faire si la mesure a l'ecran semble incorrecte ?</h3>
-              <p>
-                Verifiez l'etalonnage dans les parametres avec une carte
-                bancaire, puis controlez le zoom d'affichage ou un changement de
-                protection d'ecran.
+              <h3 data-i18n="faq3Title">Que faire si la mesure à l'écran semble incorrecte ?</h3>
+              <p data-i18n="faq3Body">
+                Vérifiez l'étalonnage dans les paramètres avec une carte
+                bancaire, puis contrôlez le zoom d'affichage ou un changement de
+                protection d'écran.
               </p>
             </article>
             <article class="faq-item">
-              <h3>Comment contacter le support ?</h3>
+              <h3 data-i18n="faq4Title">Comment contacter le support ?</h3>
               <p>
-                Ecrivez a
-                <a href="mailto:support@bbqexpert.app">support@bbqexpert.app</a>
-                avec votre appareil, votre version de l'app et une description
-                precise du souci.
+                <span data-i18n="faq4Prefix">Écrivez à</span>
+                <a href="mailto:jsteunou+bbqexpertsupport@gmail.com"
+                  >jsteunou+bbqexpertsupport@gmail.com</a
+                >
+                <span data-i18n="faq4Suffix"
+                  >avec votre appareil, votre version de l'app et une description
+                  précise du souci.</span
+                >
               </p>
             </article>
           </div>
@@ -187,27 +210,34 @@
         <section class="section" id="contact">
           <div class="contact-panel">
             <div>
-              <p class="eyebrow">Contact</p>
-              <h2>Nous ecrire</h2>
+              <p class="eyebrow" data-i18n="contactEyebrow">Contact</p>
+              <h2 data-i18n="contactTitle">Nous écrire</h2>
               <p>
-                Pour toute question d'assistance:
-                <a href="mailto:support@bbqexpert.app">support@bbqexpert.app</a>
+                <span data-i18n="contactSupportLabel">Pour toute question d'assistance :</span>
+                <a href="mailto:jsteunou+bbqexpertsupport@gmail.com"
+                  >jsteunou+bbqexpertsupport@gmail.com</a
+                >
               </p>
               <p>
-                Pour les demandes liees a la confidentialite:
-                <a href="mailto:privacy@bbqexpert.app">privacy@bbqexpert.app</a>
+                <span data-i18n="contactPrivacyLabel"
+                  >Pour les demandes liées à la confidentialité :</span
+                >
+                <a href="mailto:jsteunou+bbqexpertprivacy@gmail.com"
+                  >jsteunou+bbqexpertprivacy@gmail.com</a
+                >
               </p>
               <p>
-                Bundle iOS / package Android du projet actuel:
+                <span data-i18n="contactBundleLabel"
+                  >Bundle iOS / package Android du projet actuel :</span
+                >
                 <strong>com.juliensteunou.bbqexpert</strong>
               </p>
             </div>
             <div class="contact-card">
-              <h3>Avant publication</h3>
-              <p>
-                Le contenu de support est maintenant aligne avec le projet
-                principal. Il reste a confirmer le nom legal de l'editeur et les
-                adresses email definitives.
+              <h3 data-i18n="publishTitle">Avant publication</h3>
+              <p data-i18n="publishBody">
+                Le contenu de support est maintenant aligné avec le projet
+                principal. Il reste à confirmer le nom légal de l'éditeur.
               </p>
             </div>
           </div>
@@ -215,12 +245,14 @@
       </main>
 
       <footer class="footer">
-        <p>© 2026 BBQ Expert. Tous droits reserves.</p>
+        <p data-i18n="footerCopy">© 2026 BBQ Expert. Tous droits réservés.</p>
         <div class="footer-links">
-          <a href="index.html">Support</a>
-          <a href="privacy.html">Confidentialite</a>
+          <a href="index.html" data-i18n="footerSupport">Support</a>
+          <a href="privacy.html" data-i18n="footerPrivacy">Confidentialité</a>
         </div>
       </footer>
     </div>
+
+    <script src="assets/site.js"></script>
   </body>
 </html>

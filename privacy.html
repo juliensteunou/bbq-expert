@@ -3,20 +3,20 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>BBQ Expert | Politique de confidentialite</title>
+    <title>BBQ Expert | Politique de confidentialité</title>
     <meta
       name="description"
-      content="Politique de confidentialite de BBQ Expert. Informations sur les donnees locales, les achats integres et vos droits."
+      content="Politique de confidentialité de BBQ Expert. Informations sur les données locales, les achats intégrés et vos droits."
     />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@400;500;700;800&family=Space+Grotesk:wght@400;500;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@400;500;700;800&family=Noto+Sans:wght@400;500;700&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="assets/styles.css" />
   </head>
-  <body>
+  <body data-page="privacy">
     <div class="site-shell">
       <header class="page-header">
         <nav class="topbar">
@@ -25,157 +25,179 @@
             <span>BBQ Expert</span>
           </a>
           <div class="nav-links">
-            <a href="index.html">Support</a>
-            <a href="privacy.html">Confidentialite</a>
+            <a href="index.html" data-i18n="navSupport">Support</a>
+            <a href="privacy.html" data-i18n="navPrivacy">Confidentialité</a>
           </div>
+          <label class="language-switcher">
+            <span data-i18n="languageLabel">Langue</span>
+            <select id="language-select" aria-label="Language selector">
+              <option value="fr">Français</option>
+              <option value="en">English</option>
+              <option value="it">Italiano</option>
+              <option value="es">Español</option>
+              <option value="de">Deutsch</option>
+              <option value="zh">中文</option>
+            </select>
+          </label>
         </nav>
 
         <div class="page-heading">
-          <p class="eyebrow">Vie privee</p>
-          <h1>Politique de confidentialite</h1>
-          <p class="lead">
-            Cette page decrit comment BBQ Expert traite les donnees dans sa
-            version actuelle, principalement autour des preferences locales, de
-            l'historique de cuisson et des achats integres.
+          <p class="eyebrow" data-i18n="privacyEyebrow">Vie privée</p>
+          <h1 data-i18n="privacyTitle">Politique de confidentialité</h1>
+          <p class="lead" data-i18n="privacyLead">
+            Cette page décrit comment BBQ Expert traite les données dans sa
+            version actuelle, principalement autour des préférences locales, de
+            l'historique de cuisson et des achats intégrés.
           </p>
-          <p class="meta-note">Derniere mise a jour: 4 avril 2026</p>
+          <p class="meta-note" data-i18n="privacyUpdated">
+            Dernière mise à jour : 4 avril 2026
+          </p>
         </div>
       </header>
 
       <main class="policy-layout">
         <aside class="policy-summary">
-          <h2>Resume</h2>
+          <h2 data-i18n="summaryTitle">Résumé</h2>
           <ul class="check-list">
-            <li>Pas de compte requis dans la version actuelle</li>
-            <li>Preferences et historique stockes localement</li>
-            <li>Achats integres geres via RevenueCat et les stores</li>
-            <li>Contact: privacy@bbqexpert.app</li>
+            <li data-i18n="summary1">Pas de compte requis dans la version actuelle</li>
+            <li data-i18n="summary2">Préférences et historique stockés localement</li>
+            <li data-i18n="summary3">Achats intégrés gérés via RevenueCat et les stores</li>
+            <li>
+              <span data-i18n="summary4">Contact :</span>
+              <a href="mailto:jsteunou+bbqexpertprivacy@gmail.com"
+                >jsteunou+bbqexpertprivacy@gmail.com</a
+              >
+            </li>
           </ul>
         </aside>
 
         <section class="policy-content">
           <article class="policy-block">
-            <h2>1. Responsable du traitement</h2>
-            <p>
-              Le responsable du traitement des donnees de BBQ Expert est
-              <strong>[Nom de l'editeur / societe]</strong>, joignable a
-              <a href="mailto:privacy@bbqexpert.app">privacy@bbqexpert.app</a>.
+            <h2 data-i18n="section1Title">1. Responsable du traitement</h2>
+            <p data-i18n="section1Body">
+              Le responsable du traitement des données de BBQ Expert est
+              [Nom de l'éditeur / société], joignable à
+              jsteunou+bbqexpertprivacy@gmail.com.
             </p>
           </article>
 
           <article class="policy-block">
-            <h2>2. Donnees susceptibles d'etre collectees</h2>
-            <p>
-              D'apres la version actuelle du projet, l'application ne demande
-              pas de creation de compte et fonctionne principalement avec des
-              donnees locales enregistrees sur l'appareil.
+            <h2 data-i18n="section2Title">2. Données susceptibles d'être collectées</h2>
+            <p data-i18n="section2Lead">
+              D'après la version actuelle du projet, l'application ne demande
+              pas de création de compte et fonctionne principalement avec des
+              données locales enregistrées sur l'appareil.
             </p>
             <ul>
-              <li>Preferences de langue, d'unites et d'alertes.</li>
-              <li>Reglages d'etalonnage de la regle de mesure.</li>
-              <li>Historique local des cuissons.</li>
-              <li>Informations liees a l'etat Premium recuperees via les plateformes d'achat integre.</li>
-              <li>Informations que vous choisissez d'envoyer au support par email.</li>
+              <li data-i18n="section2Item1">Préférences de langue, d'unités et d'alertes.</li>
+              <li data-i18n="section2Item2">Réglages d'étalonnage de la règle de mesure.</li>
+              <li data-i18n="section2Item3">Historique local des cuissons.</li>
+              <li data-i18n="section2Item4">Informations liées à l'état Premium récupérées via les plateformes d'achat intégré.</li>
+              <li data-i18n="section2Item5">Informations que vous choisissez d'envoyer au support par email.</li>
             </ul>
           </article>
 
           <article class="policy-block">
-            <h2>3. Finalites du traitement</h2>
-            <p>Ces donnees peuvent etre utilisees pour:</p>
+            <h2 data-i18n="section3Title">3. Finalités du traitement</h2>
+            <p data-i18n="section3Lead">Ces données peuvent être utilisées pour :</p>
             <ul>
-              <li>Fournir, exploiter et securiser l'application.</li>
-              <li>Repondre aux demandes de support.</li>
-              <li>Enregistrer vos preferences et votre historique local sur l'appareil.</li>
-              <li>Verifier et restaurer vos droits d'acces aux fonctions Premium.</li>
-              <li>Respecter les obligations legales applicables.</li>
+              <li data-i18n="section3Item1">Fournir, exploiter et sécuriser l'application.</li>
+              <li data-i18n="section3Item2">Répondre aux demandes de support.</li>
+              <li data-i18n="section3Item3">Enregistrer vos préférences et votre historique local sur l'appareil.</li>
+              <li data-i18n="section3Item4">Vérifier et restaurer vos droits d'accès aux fonctions Premium.</li>
+              <li data-i18n="section3Item5">Respecter les obligations légales applicables.</li>
             </ul>
           </article>
 
           <article class="policy-block">
-            <h2>4. Base legale</h2>
-            <p>
-              Le traitement repose, selon les cas, sur l'execution du service,
-              votre consentement, l'interet legitime de l'editeur ou une
-              obligation legale.
+            <h2 data-i18n="section4Title">4. Base légale</h2>
+            <p data-i18n="section4Body">
+              Le traitement repose, selon les cas, sur l'exécution du service,
+              votre consentement, l'intérêt légitime de l'éditeur ou une
+              obligation légale.
             </p>
           </article>
 
           <article class="policy-block">
-            <h2>5. Conservation des donnees</h2>
-            <p>
-              Les preferences et l'historique de cuisson sont conserves
-              localement sur votre appareil jusqu'a leur suppression par
+            <h2 data-i18n="section5Title">5. Conservation des données</h2>
+            <p data-i18n="section5Body">
+              Les préférences et l'historique de cuisson sont conservés
+              localement sur votre appareil jusqu'à leur suppression par
               l'utilisateur, par des actions dans l'application ou par la
-              desinstallation. Les emails de support peuvent etre conserves le
-              temps necessaire au traitement de la demande.
+              désinstallation. Les emails de support peuvent être conservés le
+              temps nécessaire au traitement de la demande.
             </p>
           </article>
 
           <article class="policy-block">
-            <h2>6. Partage des donnees</h2>
-            <p>
-              Les donnees locales de cuisson ne sont pas decrites comme etant
-              transmises a un serveur exploite par BBQ Expert pour les fonctions
+            <h2 data-i18n="section6Title">6. Partage des données</h2>
+            <p data-i18n="section6Body">
+              Les données locales de cuisson ne sont pas décrites comme étant
+              transmises à un serveur exploité par BBQ Expert pour les fonctions
               locales actuelles. En revanche, si vous utilisez les achats
-              integres Premium, certaines informations techniques et de
-              transaction peuvent etre traitees par les stores de la plateforme
-              et par RevenueCat pour gerer l'achat, la validation et la
-              restauration des acces Premium.
+              intégrés Premium, certaines informations techniques et de
+              transaction peuvent être traitées par les stores de la plateforme
+              et par RevenueCat pour gérer l'achat, la validation et la
+              restauration des accès Premium.
             </p>
           </article>
 
           <article class="policy-block">
-            <h2>7. Vos droits</h2>
-            <p>
-              Vous pouvez demander l'acces, la rectification, l'effacement, la
-              limitation du traitement ou l'opposition, selon la legislation
-              applicable. Pour les donnees stockees uniquement sur votre appareil,
-              une partie du controle s'exerce directement via l'application ou la
-              suppression locale de ses donnees.
+            <h2 data-i18n="section7Title">7. Vos droits</h2>
+            <p data-i18n="section7Body">
+              Vous pouvez demander l'accès, la rectification, l'effacement, la
+              limitation du traitement ou l'opposition, selon la législation
+              applicable. Pour les données stockées uniquement sur votre appareil,
+              une partie du contrôle s'exerce directement via l'application ou la
+              suppression locale de ses données.
             </p>
             <p>
-              Pour exercer vos droits, contactez
-              <a href="mailto:privacy@bbqexpert.app">privacy@bbqexpert.app</a>.
+              <span data-i18n="section7ContactPrefix">Pour exercer vos droits, contactez</span>
+              <a href="mailto:jsteunou+bbqexpertprivacy@gmail.com"
+                >jsteunou+bbqexpertprivacy@gmail.com</a
+              >.
             </p>
           </article>
 
           <article class="policy-block">
-            <h2>8. Cookies et technologies similaires</h2>
-            <p>
-              Le site de support ne prevoit pas de cookies fonctionnels
+            <h2 data-i18n="section8Title">8. Cookies et technologies similaires</h2>
+            <p data-i18n="section8Body">
+              Le site de support ne prévoit pas de cookies fonctionnels
               complexes dans cette version statique. Si des outils d'analyse ou
-              de mesure d'audience sont ajoutes plus tard, cette politique devra
-              etre mise a jour.
+              de mesure d'audience sont ajoutés plus tard, cette politique devra
+              être mise à jour.
             </p>
           </article>
 
           <article class="policy-block">
-            <h2>9. Securite</h2>
-            <p>
-              Nous mettons en oeuvre des mesures raisonnables pour proteger les
-              donnees contre l'acces non autorise, l'alteration, la divulgation
+            <h2 data-i18n="section9Title">9. Sécurité</h2>
+            <p data-i18n="section9Body">
+              Nous mettons en oeuvre des mesures raisonnables pour protéger les
+              données contre l'accès non autorisé, l'altération, la divulgation
               ou la destruction.
             </p>
           </article>
 
           <article class="policy-block">
-            <h2>10. Modifications</h2>
-            <p>
-              Cette politique peut etre mise a jour a tout moment, notamment si
-              de futures fonctionnalites impliquent des comptes, de l'analytique,
-              des partenaires, de l'e-commerce ou des accessoires connectes.
+            <h2 data-i18n="section10Title">10. Modifications</h2>
+            <p data-i18n="section10Body">
+              Cette politique peut être mise à jour à tout moment, notamment si
+              de futures fonctionnalités impliquent des comptes, de l'analytique,
+              des partenaires, de l'e-commerce ou des accessoires connectés.
             </p>
           </article>
         </section>
       </main>
 
       <footer class="footer">
-        <p>© 2026 BBQ Expert. Tous droits reserves.</p>
+        <p data-i18n="footerCopy">© 2026 BBQ Expert. Tous droits réservés.</p>
         <div class="footer-links">
-          <a href="index.html">Support</a>
-          <a href="privacy.html">Confidentialite</a>
+          <a href="index.html" data-i18n="footerSupport">Support</a>
+          <a href="privacy.html" data-i18n="footerPrivacy">Confidentialité</a>
         </div>
       </footer>
     </div>
+
+    <script src="assets/site.js"></script>
   </body>
 </html>
