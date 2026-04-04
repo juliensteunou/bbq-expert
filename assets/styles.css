@@ -1,0 +1,364 @@
+:root {
+  --bg: #fbf5eb;
+  --bg-soft: #f3e5cf;
+  --surface: rgba(255, 250, 240, 0.82);
+  --surface-strong: #fffaf2;
+  --ink: #23170c;
+  --ink-soft: #5f4a38;
+  --accent: #b84d1f;
+  --accent-strong: #8d3511;
+  --line: rgba(70, 42, 20, 0.12);
+  --shadow: 0 20px 50px rgba(82, 40, 10, 0.12);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  font-family: "Space Grotesk", sans-serif;
+  color: var(--ink);
+  background:
+    radial-gradient(circle at top left, rgba(255, 190, 92, 0.45), transparent 32%),
+    radial-gradient(circle at top right, rgba(184, 77, 31, 0.18), transparent 28%),
+    linear-gradient(180deg, #fff8ef 0%, var(--bg) 46%, #f0dcc5 100%);
+}
+
+a {
+  color: inherit;
+}
+
+.site-shell {
+  width: min(1160px, calc(100% - 32px));
+  margin: 0 auto;
+  padding: 24px 0 48px;
+}
+
+.topbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 18px 22px;
+  border: 1px solid var(--line);
+  border-radius: 22px;
+  background: rgba(255, 250, 242, 0.68);
+  backdrop-filter: blur(14px);
+  box-shadow: var(--shadow);
+}
+
+.brand {
+  font-family: "Bricolage Grotesque", sans-serif;
+  font-size: 1.2rem;
+  font-weight: 800;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+
+.nav-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 18px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: var(--ink-soft);
+}
+
+.hero,
+.page-header {
+  padding-top: 18px;
+}
+
+.hero-grid,
+.page-heading,
+.policy-layout,
+.contact-panel,
+.support-grid,
+.faq-list {
+  animation: rise 0.7s ease both;
+}
+
+.hero-grid {
+  display: grid;
+  grid-template-columns: 1.3fr 0.9fr;
+  gap: 24px;
+  margin-top: 24px;
+}
+
+.hero-copy,
+.hero-card,
+.page-heading,
+.policy-summary,
+.policy-block,
+.contact-panel,
+.info-card,
+.faq-item {
+  border: 1px solid var(--line);
+  background: var(--surface);
+  backdrop-filter: blur(10px);
+  box-shadow: var(--shadow);
+}
+
+.hero-copy,
+.hero-card,
+.page-heading,
+.policy-summary,
+.policy-block,
+.info-card,
+.faq-item {
+  border-radius: 28px;
+  padding: 28px;
+}
+
+.hero-copy h1,
+.page-heading h1 {
+  margin: 0;
+  font-family: "Bricolage Grotesque", sans-serif;
+  font-size: clamp(2.7rem, 6vw, 5.5rem);
+  line-height: 0.95;
+  letter-spacing: -0.04em;
+}
+
+.hero-card h2,
+.section-heading h2,
+.contact-panel h2,
+.policy-summary h2,
+.policy-block h2 {
+  margin-top: 0;
+  font-family: "Bricolage Grotesque", sans-serif;
+}
+
+.lead {
+  max-width: 62ch;
+  font-size: 1.1rem;
+  line-height: 1.7;
+  color: var(--ink-soft);
+}
+
+.eyebrow {
+  margin: 0 0 12px;
+  font-size: 0.82rem;
+  font-weight: 700;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--accent);
+}
+
+.hero-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+  margin: 28px 0 16px;
+}
+
+.button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 48px;
+  padding: 0 18px;
+  border-radius: 999px;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.button-primary {
+  background: linear-gradient(135deg, var(--accent) 0%, #d76a2c 100%);
+  color: #fff8f3;
+}
+
+.button-secondary {
+  border: 1px solid rgba(184, 77, 31, 0.2);
+  background: rgba(255, 255, 255, 0.4);
+  color: var(--accent-strong);
+}
+
+.meta-note {
+  margin: 0;
+  color: var(--ink-soft);
+}
+
+.card-badge {
+  display: inline-flex;
+  padding: 8px 12px;
+  border-radius: 999px;
+  background: rgba(184, 77, 31, 0.12);
+  color: var(--accent-strong);
+  font-size: 0.9rem;
+  font-weight: 700;
+}
+
+.check-list {
+  padding-left: 18px;
+  color: var(--ink-soft);
+  line-height: 1.8;
+}
+
+.section {
+  margin-top: 32px;
+}
+
+.section-heading {
+  margin-bottom: 18px;
+}
+
+.support-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 18px;
+}
+
+.info-card h3,
+.faq-item h3 {
+  margin-top: 0;
+  font-family: "Bricolage Grotesque", sans-serif;
+}
+
+.section-accent {
+  padding: 28px;
+  border: 1px solid var(--line);
+  border-radius: 32px;
+  background:
+    linear-gradient(135deg, rgba(255, 244, 223, 0.82), rgba(255, 248, 240, 0.92)),
+    var(--surface-strong);
+  box-shadow: var(--shadow);
+}
+
+.faq-list {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 18px;
+}
+
+.contact-panel {
+  display: grid;
+  grid-template-columns: 1.2fr 0.8fr;
+  gap: 22px;
+  padding: 28px;
+  border-radius: 32px;
+}
+
+.contact-card {
+  align-self: stretch;
+  padding: 22px;
+  border-radius: 24px;
+  background: linear-gradient(180deg, rgba(184, 77, 31, 0.12), rgba(255, 255, 255, 0.45));
+  border: 1px solid rgba(184, 77, 31, 0.18);
+}
+
+.page-heading {
+  margin-top: 24px;
+}
+
+.policy-layout {
+  display: grid;
+  grid-template-columns: 320px 1fr;
+  gap: 22px;
+  margin-top: 28px;
+}
+
+.policy-summary {
+  align-self: start;
+  position: sticky;
+  top: 20px;
+}
+
+.policy-content {
+  display: grid;
+  gap: 18px;
+}
+
+.policy-block p,
+.policy-block li,
+.faq-item p,
+.info-card p,
+.hero-card p,
+.contact-panel p {
+  color: var(--ink-soft);
+  line-height: 1.75;
+}
+
+.policy-block ul {
+  padding-left: 18px;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  margin-top: 32px;
+  padding: 18px 8px 0;
+  color: var(--ink-soft);
+}
+
+.footer-links {
+  display: flex;
+  gap: 16px;
+}
+
+@keyframes rise {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media (max-width: 900px) {
+  .hero-grid,
+  .support-grid,
+  .faq-list,
+  .contact-panel,
+  .policy-layout {
+    grid-template-columns: 1fr;
+  }
+
+  .policy-summary {
+    position: static;
+  }
+}
+
+@media (max-width: 680px) {
+  .site-shell {
+    width: min(100% - 20px, 1160px);
+    padding-top: 14px;
+  }
+
+  .topbar,
+  .hero-copy,
+  .hero-card,
+  .page-heading,
+  .policy-summary,
+  .policy-block,
+  .info-card,
+  .faq-item,
+  .contact-panel,
+  .section-accent {
+    border-radius: 22px;
+    padding: 22px;
+  }
+
+  .topbar,
+  .footer {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .nav-links,
+  .footer-links,
+  .hero-actions {
+    width: 100%;
+  }
+}
