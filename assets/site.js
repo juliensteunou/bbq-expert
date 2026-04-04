@@ -91,7 +91,7 @@ const translations = {
       summary4: "Contact :",
       section1Title: "1. Responsable du traitement",
       section1Body:
-        "Le responsable du traitement des données de BBQ Expert est [Nom de l'éditeur / société], joignable à " + PRIVACY_EMAIL + ".",
+        "Le responsable du traitement des données de BBQ Expert est Julien Steunou, joignable à " + PRIVACY_EMAIL + ".",
       section2Title: "2. Données susceptibles d'être collectées",
       section2Lead:
         "D'après la version actuelle du projet, l'application ne demande pas de création de compte et fonctionne principalement avec des données locales enregistrées sur l'appareil.",
@@ -224,7 +224,7 @@ const translations = {
       summary4: "Contact:",
       section1Title: "1. Data controller",
       section1Body:
-        "The data controller for BBQ Expert is [Publisher / company name], reachable at " + PRIVACY_EMAIL + ".",
+        "The data controller for BBQ Expert is Julien Steunou, reachable at " + PRIVACY_EMAIL + ".",
       section2Title: "2. Data that may be processed",
       section2Lead:
         "Based on the current version of the project, the app does not require account creation and mainly works with local data stored on the device.",
@@ -356,7 +356,7 @@ const translations = {
       summary4: "Contatto:",
       section1Title: "1. Titolare del trattamento",
       section1Body:
-        "Il titolare del trattamento di BBQ Expert è [Nome editore / società], contattabile all'indirizzo " + PRIVACY_EMAIL + ".",
+        "Il titolare del trattamento di BBQ Expert è Julien Steunou, contattabile all'indirizzo " + PRIVACY_EMAIL + ".",
       section2Title: "2. Dati che possono essere trattati",
       section2Lead:
         "In base alla versione attuale del progetto, l'app non richiede la creazione di un account e funziona principalmente con dati locali salvati sul dispositivo.",
@@ -488,7 +488,7 @@ const translations = {
       summary4: "Contacto:",
       section1Title: "1. Responsable del tratamiento",
       section1Body:
-        "El responsable del tratamiento de BBQ Expert es [Nombre del editor / empresa], disponible en " + PRIVACY_EMAIL + ".",
+        "El responsable del tratamiento de BBQ Expert es Julien Steunou, disponible en " + PRIVACY_EMAIL + ".",
       section2Title: "2. Datos que pueden tratarse",
       section2Lead:
         "Según la versión actual del proyecto, la aplicación no requiere crear una cuenta y funciona principalmente con datos locales guardados en el dispositivo.",
@@ -620,7 +620,7 @@ const translations = {
       summary4: "Kontakt:",
       section1Title: "1. Verantwortlicher",
       section1Body:
-        "Verantwortlich für die Datenverarbeitung von BBQ Expert ist [Name des Herausgebers / Unternehmens], erreichbar unter " + PRIVACY_EMAIL + ".",
+        "Verantwortlich für die Datenverarbeitung von BBQ Expert ist Julien Steunou, erreichbar unter " + PRIVACY_EMAIL + ".",
       section2Title: "2. Welche Daten verarbeitet werden können",
       section2Lead:
         "Nach der aktuellen Projektversion verlangt die App keine Kontoerstellung und arbeitet hauptsächlich mit lokal auf dem Gerät gespeicherten Daten.",
@@ -752,7 +752,7 @@ const translations = {
       summary4: "联系：",
       section1Title: "1. 数据控制者",
       section1Body:
-        "BBQ Expert 的数据控制者为 [发布者 / 公司名称]，可通过 " + PRIVACY_EMAIL + " 联系。",
+        "BBQ Expert 的数据控制者为 Julien Steunou，可通过 " + PRIVACY_EMAIL + " 联系。",
       section2Title: "2. 可能处理的数据",
       section2Lead:
         "根据当前项目版本，应用无需创建账户，主要依赖存储在设备上的本地数据运行。",
