@@ -1,12 +1,13 @@
 # BBQ expert support site
 
-Site statique de support et de politique de confidentialite pour le projet BBQ expert.
+Site statique de support et de politique de confidentialite pour le projet BBQ Expert.
 
 ## Fichiers
 
 - `index.html` : page d'accueil support
 - `privacy.html` : declaration / politique de confidentialite
 - `assets/styles.css` : styles du site
+- `assets/icon-bbq-expert.svg` : icone reprise des assets marketing du projet principal
 
 ## Personnalisation avant mise en ligne
 
@@ -16,6 +17,14 @@ Remplacer les valeurs suivantes par vos informations reelles :
 - `privacy@bbqexpert.app`
 - `[Nom de l'editeur / societe]`
 - les mentions legales, si necessaire
+
+Le contenu du site a ete aligne avec l'application mobile situee dans
+`/Users/juliensteunou/Documents/BBQ Expert`, notamment :
+
+- application sans compte dans la version actuelle
+- preferences et historique stockes localement
+- achats integres Premium via RevenueCat / stores
+- bundle/package : `com.juliensteunou.bbqexpert`
 
 ## Publication
 
