@@ -5,6 +5,7 @@ Site statique de support et de politique de confidentialité pour le projet BBQ 
 ## Fichiers
 
 - `index.html` : page d'accueil support
+- `terms.html` : conditions d'utilisation
 - `privacy.html` : déclaration / politique de confidentialité
 - `assets/styles.css` : styles du site
 - `assets/icon-bbq-expert.svg` : icone reprise des assets marketing du projet principal
@@ -47,5 +48,6 @@ Le fichier `vercel.json` est deja configure pour :
 
 - servir le site comme un projet statique
 - activer des URLs propres
+- exposer la page des conditions sur `/terms`
 - exposer la page de confidentialite sur `/privacy`
 - ajouter quelques en-tetes de securite simples

@@ -6,6 +6,7 @@ const translations = {
     support: {
       navFaq: "FAQ",
       navContact: "Contact",
+      navTerms: "Conditions",
       navPrivacy: "Confidentialité",
       languageLabel: "Langue",
       heroEyebrow: "Support officiel",
@@ -73,10 +74,12 @@ const translations = {
         "Le contenu de support est maintenant aligné avec le projet principal. Il reste à confirmer le nom légal de l'éditeur.",
       footerCopy: "© 2026 BBQ Expert. Tous droits réservés.",
       footerSupport: "Support",
+      footerTerms: "Conditions",
       footerPrivacy: "Confidentialité",
     },
     privacy: {
       navSupport: "Support",
+      navTerms: "Conditions",
       navPrivacy: "Confidentialité",
       languageLabel: "Langue",
       privacyEyebrow: "Vie privée",
@@ -132,6 +135,53 @@ const translations = {
         "Cette politique peut être mise à jour à tout moment, notamment si de futures fonctionnalités impliquent des comptes, de l'analytique, des partenaires, de l'e-commerce ou des accessoires connectés.",
       footerCopy: "© 2026 BBQ Expert. Tous droits réservés.",
       footerSupport: "Support",
+      footerTerms: "Conditions",
+      footerPrivacy: "Confidentialité",
+    },
+    terms: {
+      navSupport: "Support",
+      navTerms: "Conditions",
+      navPrivacy: "Confidentialité",
+      languageLabel: "Langue",
+      termsEyebrow: "Conditions",
+      termsTitle: "Conditions d'utilisation",
+      termsLead:
+        "Ces conditions encadrent l'utilisation de l'application BBQ Expert et du site de support associé.",
+      termsUpdated: "Dernière mise à jour : 22 avril 2026",
+      summaryTitle: "Résumé",
+      termsSummary1: "Usage personnel de l'application",
+      termsSummary2: "Informations fournies à titre indicatif",
+      termsSummary3: "Aucune garantie de résultat culinaire parfait",
+      termsSummary4: "Contact : jsteunou+bbqexpertsupport@gmail.com",
+      termsSection1Title: "1. Éditeur",
+      termsSection1Body:
+        "L'application BBQ Expert et son site de support sont proposés par Julien Steunou.",
+      termsSection2Title: "2. Objet du service",
+      termsSection2Body:
+        "BBQ Expert aide l'utilisateur à estimer et suivre une cuisson au barbecue à l'aide de paramètres saisis manuellement, d'une règle de mesure à l'écran et d'un timer guidé.",
+      termsSection3Title: "3. Usage autorisé",
+      termsSection3Body:
+        "Vous vous engagez à utiliser l'application conformément aux lois en vigueur et uniquement pour un usage personnel ou professionnel légitime lié à la cuisson et à l'organisation de vos sessions BBQ.",
+      termsSection4Title: "4. Avertissement important",
+      termsSection4Body:
+        "Les temps, recommandations et estimations fournis par BBQ Expert constituent une aide pratique. Ils ne remplacent ni la vigilance de l'utilisateur, ni les règles d'hygiène alimentaire, ni l'usage d'une sonde à cœur lorsque la sécurité alimentaire l'exige, notamment pour le porc et le poulet.",
+      termsSection5Title: "5. Fonctions Premium",
+      termsSection5Body:
+        "Certaines fonctionnalités peuvent être proposées sous forme d'achats intégrés ou d'abonnement, selon les plateformes de distribution. Les conditions tarifaires, de facturation et de renouvellement applicables sont celles affichées au moment de l'achat via l'App Store.",
+      termsSection6Title: "6. Propriété intellectuelle",
+      termsSection6Body:
+        "Les contenus, textes, visuels, logos et éléments logiciels liés à BBQ Expert sont protégés par les droits applicables. Toute reproduction, diffusion ou exploitation non autorisée est interdite sauf accord préalable.",
+      termsSection7Title: "7. Limitation de responsabilité",
+      termsSection7Body:
+        "Dans les limites permises par la loi, Julien Steunou ne pourra être tenu responsable des dommages indirects, des pertes de données, ni des résultats de cuisson ne correspondant pas aux attentes de l'utilisateur.",
+      termsSection8Title: "8. Contact",
+      termsSection8Prefix: "Pour toute question relative aux conditions d'utilisation, contactez",
+      termsSection9Title: "9. Mise à jour",
+      termsSection9Body:
+        "Ces conditions peuvent être modifiées à tout moment. La version publiée sur ce site fait foi à la date de consultation.",
+      footerCopy: "© 2026 BBQ Expert. Tous droits réservés.",
+      footerSupport: "Support",
+      footerTerms: "Conditions",
       footerPrivacy: "Confidentialité",
     },
   },
@@ -139,6 +189,7 @@ const translations = {
     support: {
       navFaq: "FAQ",
       navContact: "Contact",
+      navTerms: "Terms",
       navPrivacy: "Privacy",
       languageLabel: "Language",
       heroEyebrow: "Official support",
@@ -206,10 +257,12 @@ const translations = {
         "Support content is now aligned with the main project. The legal publisher name still needs to be confirmed.",
       footerCopy: "© 2026 BBQ Expert. All rights reserved.",
       footerSupport: "Support",
+      footerTerms: "Terms",
       footerPrivacy: "Privacy",
     },
     privacy: {
       navSupport: "Support",
+      navTerms: "Terms",
       navPrivacy: "Privacy",
       languageLabel: "Language",
       privacyEyebrow: "Privacy",
@@ -264,6 +317,53 @@ const translations = {
         "This policy may be updated at any time, especially if future features involve accounts, analytics, partners, e-commerce, or connected accessories.",
       footerCopy: "© 2026 BBQ Expert. All rights reserved.",
       footerSupport: "Support",
+      footerTerms: "Terms",
+      footerPrivacy: "Privacy",
+    },
+    terms: {
+      navSupport: "Support",
+      navTerms: "Terms",
+      navPrivacy: "Privacy",
+      languageLabel: "Language",
+      termsEyebrow: "Terms",
+      termsTitle: "Terms of Use",
+      termsLead:
+        "These terms govern the use of the BBQ Expert app and its associated support site.",
+      termsUpdated: "Last updated: April 22, 2026",
+      summaryTitle: "Summary",
+      termsSummary1: "Personal use of the app",
+      termsSummary2: "Information provided for guidance purposes",
+      termsSummary3: "No guarantee of a perfect cooking result",
+      termsSummary4: "Contact: jsteunou+bbqexpertsupport@gmail.com",
+      termsSection1Title: "1. Publisher",
+      termsSection1Body:
+        "The BBQ Expert app and its support site are provided by Julien Steunou.",
+      termsSection2Title: "2. Purpose of the service",
+      termsSection2Body:
+        "BBQ Expert helps users estimate and follow BBQ cooking using manually entered settings, an on-screen ruler, and a guided timer.",
+      termsSection3Title: "3. Authorized use",
+      termsSection3Body:
+        "You agree to use the app in compliance with applicable law and only for personal use or legitimate professional use related to cooking and organizing BBQ sessions.",
+      termsSection4Title: "4. Important notice",
+      termsSection4Body:
+        "The timings, recommendations, and estimates provided by BBQ Expert are practical guidance only. They do not replace user attention, food safety rules, or the use of a core thermometer when food safety requires it, especially for pork and chicken.",
+      termsSection5Title: "5. Premium features",
+      termsSection5Body:
+        "Some features may be offered as in-app purchases or subscriptions depending on the distribution platform. Applicable pricing, billing, and renewal conditions are those shown at the time of purchase through the App Store.",
+      termsSection6Title: "6. Intellectual property",
+      termsSection6Body:
+        "The content, text, visuals, logos, and software elements related to BBQ Expert are protected by applicable rights. Any unauthorized reproduction, distribution, or exploitation is prohibited unless previously authorized.",
+      termsSection7Title: "7. Limitation of liability",
+      termsSection7Body:
+        "To the extent permitted by law, Julien Steunou shall not be liable for indirect damages, data loss, or cooking results that do not meet user expectations.",
+      termsSection8Title: "8. Contact",
+      termsSection8Prefix: "For any question regarding these terms, contact",
+      termsSection9Title: "9. Updates",
+      termsSection9Body:
+        "These terms may be modified at any time. The version published on this site shall prevail on the consultation date.",
+      footerCopy: "© 2026 BBQ Expert. All rights reserved.",
+      footerSupport: "Support",
+      footerTerms: "Terms",
       footerPrivacy: "Privacy",
     },
   },
@@ -271,6 +371,7 @@ const translations = {
     support: {
       navFaq: "FAQ",
       navContact: "Contatto",
+      navTerms: "Condizioni",
       navPrivacy: "Privacy",
       languageLabel: "Lingua",
       heroEyebrow: "Supporto ufficiale",
@@ -338,10 +439,12 @@ const translations = {
         "I contenuti di supporto sono ora allineati al progetto principale. Resta da confermare il nome legale dell'editore.",
       footerCopy: "© 2026 BBQ Expert. Tutti i diritti riservati.",
       footerSupport: "Supporto",
+      footerTerms: "Condizioni",
       footerPrivacy: "Privacy",
     },
     privacy: {
       navSupport: "Supporto",
+      navTerms: "Condizioni",
       navPrivacy: "Privacy",
       languageLabel: "Lingua",
       privacyEyebrow: "Privacy",
@@ -396,6 +499,53 @@ const translations = {
         "Questa informativa può essere aggiornata in qualsiasi momento, soprattutto se future funzionalità includeranno account, analytics, partner, e-commerce o accessori connessi.",
       footerCopy: "© 2026 BBQ Expert. Tutti i diritti riservati.",
       footerSupport: "Supporto",
+      footerTerms: "Condizioni",
+      footerPrivacy: "Privacy",
+    },
+    terms: {
+      navSupport: "Supporto",
+      navTerms: "Condizioni",
+      navPrivacy: "Privacy",
+      languageLabel: "Lingua",
+      termsEyebrow: "Condizioni",
+      termsTitle: "Condizioni d'uso",
+      termsLead:
+        "Queste condizioni disciplinano l'utilizzo dell'app BBQ Expert e del sito di supporto associato.",
+      termsUpdated: "Ultimo aggiornamento: 22 aprile 2026",
+      summaryTitle: "Riepilogo",
+      termsSummary1: "Uso personale dell'app",
+      termsSummary2: "Informazioni fornite a scopo indicativo",
+      termsSummary3: "Nessuna garanzia di risultato perfetto in cottura",
+      termsSummary4: "Contatto: jsteunou+bbqexpertsupport@gmail.com",
+      termsSection1Title: "1. Editore",
+      termsSection1Body:
+        "L'app BBQ Expert e il relativo sito di supporto sono forniti da Julien Steunou.",
+      termsSection2Title: "2. Oggetto del servizio",
+      termsSection2Body:
+        "BBQ Expert aiuta l'utente a stimare e seguire una cottura BBQ tramite parametri inseriti manualmente, un righello sullo schermo e un timer guidato.",
+      termsSection3Title: "3. Uso consentito",
+      termsSection3Body:
+        "Ti impegni a usare l'app nel rispetto delle leggi applicabili e solo per uso personale o per un uso professionale legittimo legato alla cottura e all'organizzazione delle tue sessioni BBQ.",
+      termsSection4Title: "4. Avvertenza importante",
+      termsSection4Body:
+        "Tempi, raccomandazioni e stime forniti da BBQ Expert costituiscono solo un aiuto pratico. Non sostituiscono l'attenzione dell'utente, le regole di igiene alimentare o l'uso di una sonda al cuore quando la sicurezza alimentare lo richiede, in particolare per maiale e pollo.",
+      termsSection5Title: "5. Funzioni Premium",
+      termsSection5Body:
+        "Alcune funzioni possono essere offerte come acquisti in-app o abbonamenti, a seconda della piattaforma di distribuzione. Prezzi, fatturazione e condizioni di rinnovo applicabili sono quelli mostrati al momento dell'acquisto tramite App Store.",
+      termsSection6Title: "6. Proprietà intellettuale",
+      termsSection6Body:
+        "Contenuti, testi, elementi visivi, loghi e componenti software legati a BBQ Expert sono protetti dai diritti applicabili. Qualsiasi riproduzione, distribuzione o sfruttamento non autorizzato è vietato salvo previo consenso.",
+      termsSection7Title: "7. Limitazione di responsabilità",
+      termsSection7Body:
+        "Nei limiti consentiti dalla legge, Julien Steunou non potrà essere ritenuto responsabile per danni indiretti, perdite di dati o risultati di cottura non conformi alle aspettative dell'utente.",
+      termsSection8Title: "8. Contatto",
+      termsSection8Prefix: "Per qualsiasi domanda relativa a queste condizioni, contatta",
+      termsSection9Title: "9. Aggiornamenti",
+      termsSection9Body:
+        "Queste condizioni possono essere modificate in qualsiasi momento. Fa fede la versione pubblicata su questo sito alla data di consultazione.",
+      footerCopy: "© 2026 BBQ Expert. Tutti i diritti riservati.",
+      footerSupport: "Supporto",
+      footerTerms: "Condizioni",
       footerPrivacy: "Privacy",
     },
   },
@@ -403,6 +553,7 @@ const translations = {
     support: {
       navFaq: "FAQ",
       navContact: "Contacto",
+      navTerms: "Términos",
       navPrivacy: "Privacidad",
       languageLabel: "Idioma",
       heroEyebrow: "Soporte oficial",
@@ -470,10 +621,12 @@ const translations = {
         "El contenido de soporte ya está alineado con el proyecto principal. Falta confirmar el nombre legal del editor.",
       footerCopy: "© 2026 BBQ Expert. Todos los derechos reservados.",
       footerSupport: "Soporte",
+      footerTerms: "Términos",
       footerPrivacy: "Privacidad",
     },
     privacy: {
       navSupport: "Soporte",
+      navTerms: "Términos",
       navPrivacy: "Privacidad",
       languageLabel: "Idioma",
       privacyEyebrow: "Privacidad",
@@ -528,6 +681,53 @@ const translations = {
         "Esta política puede actualizarse en cualquier momento, especialmente si futuras funciones implican cuentas, analítica, socios, comercio electrónico o accesorios conectados.",
       footerCopy: "© 2026 BBQ Expert. Todos los derechos reservados.",
       footerSupport: "Soporte",
+      footerTerms: "Términos",
+      footerPrivacy: "Privacidad",
+    },
+    terms: {
+      navSupport: "Soporte",
+      navTerms: "Términos",
+      navPrivacy: "Privacidad",
+      languageLabel: "Idioma",
+      termsEyebrow: "Términos",
+      termsTitle: "Términos de uso",
+      termsLead:
+        "Estos términos regulan el uso de la app BBQ Expert y de su sitio de soporte asociado.",
+      termsUpdated: "Última actualización: 22 de abril de 2026",
+      summaryTitle: "Resumen",
+      termsSummary1: "Uso personal de la app",
+      termsSummary2: "Información facilitada con fines orientativos",
+      termsSummary3: "Sin garantía de resultado culinario perfecto",
+      termsSummary4: "Contacto: jsteunou+bbqexpertsupport@gmail.com",
+      termsSection1Title: "1. Editor",
+      termsSection1Body:
+        "La app BBQ Expert y su sitio de soporte asociado son ofrecidos por Julien Steunou.",
+      termsSection2Title: "2. Objeto del servicio",
+      termsSection2Body:
+        "BBQ Expert ayuda al usuario a estimar y seguir una cocción BBQ mediante parámetros introducidos manualmente, una regla en pantalla y un temporizador guiado.",
+      termsSection3Title: "3. Uso autorizado",
+      termsSection3Body:
+        "Te comprometes a usar la app conforme a la ley aplicable y solo para un uso personal o profesional legítimo relacionado con la cocina y la organización de tus sesiones BBQ.",
+      termsSection4Title: "4. Aviso importante",
+      termsSection4Body:
+        "Los tiempos, recomendaciones y estimaciones ofrecidos por BBQ Expert son solo una ayuda práctica. No sustituyen la atención del usuario, las normas de seguridad alimentaria ni el uso de una sonda interna cuando la seguridad alimentaria lo requiera, especialmente para cerdo y pollo.",
+      termsSection5Title: "5. Funciones Premium",
+      termsSection5Body:
+        "Algunas funciones pueden ofrecerse como compras integradas o suscripciones, según la plataforma de distribución. Las condiciones de precio, facturación y renovación aplicables son las mostradas en el momento de la compra a través del App Store.",
+      termsSection6Title: "6. Propiedad intelectual",
+      termsSection6Body:
+        "Los contenidos, textos, elementos visuales, logotipos y componentes de software relacionados con BBQ Expert están protegidos por los derechos aplicables. Cualquier reproducción, distribución o explotación no autorizada está prohibida salvo autorización previa.",
+      termsSection7Title: "7. Limitación de responsabilidad",
+      termsSection7Body:
+        "Dentro de los límites permitidos por la ley, Julien Steunou no será responsable de daños indirectos, pérdida de datos ni resultados de cocción que no correspondan a las expectativas del usuario.",
+      termsSection8Title: "8. Contacto",
+      termsSection8Prefix: "Para cualquier pregunta sobre estos términos, contacta con",
+      termsSection9Title: "9. Actualizaciones",
+      termsSection9Body:
+        "Estos términos pueden modificarse en cualquier momento. La versión publicada en este sitio será la válida en la fecha de consulta.",
+      footerCopy: "© 2026 BBQ Expert. Todos los derechos reservados.",
+      footerSupport: "Soporte",
+      footerTerms: "Términos",
       footerPrivacy: "Privacidad",
     },
   },
@@ -535,6 +735,7 @@ const translations = {
     support: {
       navFaq: "FAQ",
       navContact: "Kontakt",
+      navTerms: "Bedingungen",
       navPrivacy: "Datenschutz",
       languageLabel: "Sprache",
       heroEyebrow: "Offizieller Support",
@@ -602,10 +803,12 @@ const translations = {
         "Die Support-Inhalte sind jetzt am Hauptprojekt ausgerichtet. Der rechtliche Name des Herausgebers muss noch bestätigt werden.",
       footerCopy: "© 2026 BBQ Expert. Alle Rechte vorbehalten.",
       footerSupport: "Support",
+      footerTerms: "Bedingungen",
       footerPrivacy: "Datenschutz",
     },
     privacy: {
       navSupport: "Support",
+      navTerms: "Bedingungen",
       navPrivacy: "Datenschutz",
       languageLabel: "Sprache",
       privacyEyebrow: "Datenschutz",
@@ -660,6 +863,53 @@ const translations = {
         "Diese Erklärung kann jederzeit aktualisiert werden, insbesondere wenn künftige Funktionen Konten, Analytics, Partner, E-Commerce oder vernetzte Zubehörteile umfassen.",
       footerCopy: "© 2026 BBQ Expert. Alle Rechte vorbehalten.",
       footerSupport: "Support",
+      footerTerms: "Bedingungen",
+      footerPrivacy: "Datenschutz",
+    },
+    terms: {
+      navSupport: "Support",
+      navTerms: "Bedingungen",
+      navPrivacy: "Datenschutz",
+      languageLabel: "Sprache",
+      termsEyebrow: "Bedingungen",
+      termsTitle: "Nutzungsbedingungen",
+      termsLead:
+        "Diese Bedingungen regeln die Nutzung der BBQ Expert App und der dazugehörigen Support-Website.",
+      termsUpdated: "Zuletzt aktualisiert: 22. April 2026",
+      summaryTitle: "Zusammenfassung",
+      termsSummary1: "Persönliche Nutzung der App",
+      termsSummary2: "Informationen nur zu Orientierungszwecken",
+      termsSummary3: "Keine Garantie für ein perfektes Garergebnis",
+      termsSummary4: "Kontakt: jsteunou+bbqexpertsupport@gmail.com",
+      termsSection1Title: "1. Herausgeber",
+      termsSection1Body:
+        "Die BBQ Expert App und die dazugehörige Support-Website werden von Julien Steunou bereitgestellt.",
+      termsSection2Title: "2. Zweck des Dienstes",
+      termsSection2Body:
+        "BBQ Expert unterstützt Nutzer dabei, einen BBQ-Garvorgang anhand manuell eingegebener Parameter, eines Bildschirm-Lineals und eines geführten Timers zu schätzen und zu verfolgen.",
+      termsSection3Title: "3. Zulässige Nutzung",
+      termsSection3Body:
+        "Du verpflichtest dich, die App im Einklang mit geltendem Recht und nur für persönliche oder legitime berufliche Zwecke im Zusammenhang mit Kochen und der Organisation deiner BBQ-Sessions zu nutzen.",
+      termsSection4Title: "4. Wichtiger Hinweis",
+      termsSection4Body:
+        "Die von BBQ Expert bereitgestellten Zeiten, Empfehlungen und Schätzungen sind nur praktische Hilfen. Sie ersetzen weder die Aufmerksamkeit des Nutzers noch Lebensmittelsicherheitsregeln oder die Verwendung eines Kerntemperaturfühlers, wenn dies aus Gründen der Lebensmittelsicherheit erforderlich ist, insbesondere bei Schwein und Huhn.",
+      termsSection5Title: "5. Premium-Funktionen",
+      termsSection5Body:
+        "Einige Funktionen können je nach Vertriebsplattform als In-App-Käufe oder Abonnements angeboten werden. Es gelten die Preis-, Abrechnungs- und Verlängerungsbedingungen, die zum Kaufzeitpunkt im App Store angezeigt werden.",
+      termsSection6Title: "6. Geistiges Eigentum",
+      termsSection6Body:
+        "Inhalte, Texte, visuelle Elemente, Logos und Softwarebestandteile von BBQ Expert sind durch geltende Rechte geschützt. Jede unbefugte Vervielfältigung, Verbreitung oder Nutzung ist ohne vorherige Zustimmung untersagt.",
+      termsSection7Title: "7. Haftungsbeschränkung",
+      termsSection7Body:
+        "Soweit gesetzlich zulässig, haftet Julien Steunou nicht für mittelbare Schäden, Datenverluste oder Garergebnisse, die nicht den Erwartungen des Nutzers entsprechen.",
+      termsSection8Title: "8. Kontakt",
+      termsSection8Prefix: "Bei Fragen zu diesen Bedingungen kontaktiere",
+      termsSection9Title: "9. Aktualisierungen",
+      termsSection9Body:
+        "Diese Bedingungen können jederzeit geändert werden. Maßgeblich ist die auf dieser Website veröffentlichte Version zum Zeitpunkt des Aufrufs.",
+      footerCopy: "© 2026 BBQ Expert. Alle Rechte vorbehalten.",
+      footerSupport: "Support",
+      footerTerms: "Bedingungen",
       footerPrivacy: "Datenschutz",
     },
   },
@@ -667,6 +917,7 @@ const translations = {
     support: {
       navFaq: "常见问题",
       navContact: "联系",
+      navTerms: "使用条款",
       navPrivacy: "隐私政策",
       languageLabel: "语言",
       heroEyebrow: "官方支持",
@@ -734,10 +985,12 @@ const translations = {
         "支持内容现已与主项目保持一致。仍需确认发布者的法定名称。",
       footerCopy: "© 2026 BBQ Expert。保留所有权利。",
       footerSupport: "支持",
+      footerTerms: "使用条款",
       footerPrivacy: "隐私政策",
     },
     privacy: {
       navSupport: "支持",
+      navTerms: "使用条款",
       navPrivacy: "隐私政策",
       languageLabel: "语言",
       privacyEyebrow: "隐私",
@@ -792,6 +1045,53 @@ const translations = {
         "本政策可能随时更新，尤其是在未来功能涉及账户、分析、合作伙伴、电商或联网配件时。",
       footerCopy: "© 2026 BBQ Expert。保留所有权利。",
       footerSupport: "支持",
+      footerTerms: "使用条款",
+      footerPrivacy: "隐私政策",
+    },
+    terms: {
+      navSupport: "支持",
+      navTerms: "使用条款",
+      navPrivacy: "隐私政策",
+      languageLabel: "语言",
+      termsEyebrow: "条款",
+      termsTitle: "使用条款",
+      termsLead:
+        "本条款适用于 BBQ Expert 应用及其相关支持网站的使用。",
+      termsUpdated: "最后更新：2026年4月22日",
+      summaryTitle: "摘要",
+      termsSummary1: "应用供个人使用",
+      termsSummary2: "所提供信息仅供参考",
+      termsSummary3: "不保证完美的烹饪结果",
+      termsSummary4: "联系：jsteunou+bbqexpertsupport@gmail.com",
+      termsSection1Title: "1. 发布者",
+      termsSection1Body:
+        "BBQ Expert 应用及其支持网站由 Julien Steunou 提供。",
+      termsSection2Title: "2. 服务内容",
+      termsSection2Body:
+        "BBQ Expert 通过手动输入参数、屏幕测量尺和引导式计时器，帮助用户估算并跟踪烧烤烹饪过程。",
+      termsSection3Title: "3. 允许的使用",
+      termsSection3Body:
+        "你同意仅在符合法律规定的前提下，将本应用用于与烹饪和组织烧烤活动相关的个人用途或正当专业用途。",
+      termsSection4Title: "4. 重要提示",
+      termsSection4Body:
+        "BBQ Expert 提供的时间、建议和估算仅为实用参考，并不能替代用户的注意义务、食品安全规范，或在食品安全需要时使用中心温度探针，尤其是猪肉和鸡肉。",
+      termsSection5Title: "5. Premium 功能",
+      termsSection5Body:
+        "某些功能可能根据分发平台以应用内购买或订阅形式提供。适用的价格、计费和续订条件以购买时在 App Store 显示的信息为准。",
+      termsSection6Title: "6. 知识产权",
+      termsSection6Body:
+        "与 BBQ Expert 相关的内容、文本、视觉元素、标志和软件元素均受适用权利保护。未经事先授权，禁止任何复制、传播或利用行为。",
+      termsSection7Title: "7. 责任限制",
+      termsSection7Body:
+        "在法律允许的范围内，Julien Steunou 不对间接损害、数据丢失或未达到用户预期的烹饪结果承担责任。",
+      termsSection8Title: "8. 联系方式",
+      termsSection8Prefix: "如对本条款有任何疑问，请联系",
+      termsSection9Title: "9. 更新",
+      termsSection9Body:
+        "本条款可随时修改。以访问当日网站上发布的版本为准。",
+      footerCopy: "© 2026 BBQ Expert。保留所有权利。",
+      footerSupport: "支持",
+      footerTerms: "使用条款",
       footerPrivacy: "隐私政策",
     },
   },
@@ -822,6 +1122,14 @@ function updateMeta(language) {
       de: "Datenschutzerklärung von BBQ Expert. Informationen zu lokalen Daten, In-App-Käufen und deinen Rechten.",
       zh: "BBQ Expert 隐私政策，说明本地数据、应用内购买和你的权利。",
     },
+    terms: {
+      fr: "Conditions d'utilisation de BBQ Expert.",
+      en: "BBQ Expert terms of use.",
+      it: "Condizioni d'uso di BBQ Expert.",
+      es: "Términos de uso de BBQ Expert.",
+      de: "Nutzungsbedingungen von BBQ Expert.",
+      zh: "BBQ Expert 使用条款。",
+    },
   };
 
   const titleMap = {
@@ -840,6 +1148,14 @@ function updateMeta(language) {
       es: "BBQ Expert | Política de privacidad",
       de: "BBQ Expert | Datenschutzerklärung",
       zh: "BBQ Expert | 隐私政策",
+    },
+    terms: {
+      fr: "BBQ Expert | Conditions d'utilisation",
+      en: "BBQ Expert | Terms of Use",
+      it: "BBQ Expert | Condizioni d'uso",
+      es: "BBQ Expert | Términos de uso",
+      de: "BBQ Expert | Nutzungsbedingungen",
+      zh: "BBQ Expert | 使用条款",
     },
   };
 
